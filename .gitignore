@@ -16,8 +16,8 @@
 ## Intermediate files
 *.dvi
 
-## FInal output files
-.pdf
+## Final output files
+*.pdf
 
 ## Synctex files
 *.synctex.gz
