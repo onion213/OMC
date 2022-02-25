@@ -1,0 +1,26 @@
+# Tex relations
+## Core latex aux files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Intermediate files
+*.dvi
+
+## FInal output files
+.pdf
+
+## Synctex files
+*.synctex.gz
+
+# Mac
+.DS_Store
