@@ -1,0 +1,27 @@
+\documentclass[uplatex,dvipdfmx,a4paper]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{txfonts}
+\usepackage{latexsym}
+\def\qed{\hfill $\Box$}
+\newenvironment{problem}{\section*{問題}}{}
+\newenvironment{solution}{\section*{解答}}{\qed}
+\newenvironment{alt-solution}[1][1]{\section*{別解#1}}{\qed}
+
+\title{OMC001 C}
+\date{}
+\author{}
+\begin{document}
+
+\maketitle
+\begin{problem}
+    $x$の方程式$x^2+18x+30=2\sqrt{x^2+18x+45}$のすべての実数解の積を求めてください．
+\end{problem}
+
+\begin{solution}
+    $y=x^2+18x+30$とおくと，$y=2\sqrt{y+15}$となる．
+    よって，$y\ge0$とわかる．両辺を2乗して，$y^2=4y+60$となるので，$y$についてといて，
+    $y=-6, 10$とわかる．$y\ge0$より，与式が成り立つのは$y=10$のときのみであり，この時$x^2+18x+20=0$より，
+    与式の実数解の積は$20$とわかる．
+\end{solution}
+
+\end{document}
